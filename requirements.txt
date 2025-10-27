@@ -1,0 +1,19 @@
+pandas
+numpy
+scipy
+yfinance
+requests
+python-dotenv
+streamlit
+apscheduler
+pytz
+SQLAlchemy
+pymysql
+
+# LLM + embeddings (as you already use)
+google-generativeai
+sentence-transformers
+
+# Zerodha / OpenAlgo
+kiteconnect
+websocket-client

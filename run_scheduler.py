@@ -8,7 +8,7 @@ from config import settings
 from brokers import get_broker
 from autonomous_runner import run_once
 
-ist = timezone("Asia/Kolkata")
+ist = timezone("Asia/Kolkata")  # for indian time zone
 sched = BlockingScheduler(timezone=ist)
 
 WATCHLIST_STOCKS = [s.strip().upper() for s in settings.watchlist_stocks.split(",") if s.strip()]

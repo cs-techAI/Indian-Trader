@@ -20,7 +20,7 @@ from agents.mid_term_agent import MidTermAgent
 from agents.long_term_agent import LongTermAgent
 
 load_dotenv()
-st.set_page_config(page_title="Three-Agent Trader (Kite/OpenAlgo)", page_icon="🤖", layout="wide")
+st.set_page_config(page_title="Three-Agent Trader (Kite)", page_icon="🤖", layout="wide")
 
 st.sidebar.header("🔐 Keys & Toggles")
 st.sidebar.write(f"Broker: **{settings.broker}** | Data: **{settings.data_source}**")

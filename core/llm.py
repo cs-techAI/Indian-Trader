@@ -5,6 +5,7 @@ from typing import Tuple, Dict, Any, List, Optional
 
 import google.generativeai as genai
 from dotenv import load_dotenv
+# using gemini llm only
 
 load_dotenv()
 

@@ -1,6 +1,6 @@
 # data_providers/yfinace_provider.py
 from __future__ import annotations
-import pandas as pd, yfinance as yf
+import pandas as pd, yfinance as yf  # for historical data
 from datetime import datetime, timedelta
 from .base import BaseProvider
 
